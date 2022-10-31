@@ -4,6 +4,7 @@
 1. [Latihan 1](#Latihan-1)
 2. [Latihan 2](#Latihan-2)
 3. [Latihan 3](#Latihan-3)
+4. [Lingkaran](#Menghitung Luas dan Keliling Lingkaran)
 
 # Latihan 1
 <br>
@@ -100,9 +101,10 @@ Z
 <br><br>
 
 # Latihan 2 
+![Screenshot_20221031_133009](https://user-images.githubusercontent.com/115473812/198945679-ec8e36e0-e627-460c-ad29-6e0e6a05d6ec.png)
 
 * buat kode <br>
-![SC latihan2](https://user-images.githubusercontent.com/47426095/198815274-cb1ce429-aad3-4646-979f-e659fc7c3af3.PNG)
+
 <br>
 
 ```python
@@ -126,51 +128,101 @@ print("Hasil pembagian {1} / {0} = %d".format(a,b) %(a/b))
 
 * lakukan run file
 * hasil output :
-![run latihan2](https://user-images.githubusercontent.com/47426095/198815344-e7835741-519d-4562-bdbc-7ffa4ac92592.PNG)
+![Screenshot_20221031_133020](https://user-images.githubusercontent.com/115473812/198945724-d45c66ab-855c-46dd-8efb-bf8dd7e0caa2.png)
+
 <br>
 
 ```
-masukan nilai pertama: 2
+masukan nilai pertama: 3
 masukan nilai kedua: 5
-variabel a =  2
+variabel a =  3
 variabel b =  5
-Hasil Penggabungan 5 & 2 = 25
-Hasil penjumlahan 5 + 2 = 7
-Hasil pembagian 5 / 2 = 0
+Hasil Penggabungan 5 & 3 = 35
+Hasil penjumlahan 5 + 3 = 8
+Hasil pembagian 5 / 3 = 0
 ```
 # Latihan 3
 * buat kode <br>
-![SC latihan3](https://user-images.githubusercontent.com/47426095/198815446-deadbac8-b4c3-46c4-8073-bdcf003872e8.PNG)
+![Screenshot_20221031_133702](https://user-images.githubusercontent.com/115473812/198946537-bffb9beb-73eb-4ee2-9181-eac6981f9878.png)
+
 <br>
 
 ```python
-h = 5
-print("Hello ini script python \n\n")
+# menampilkan output * berbentuk diamond
+inputData = eval(input("Enter diamond's height: "))
 
-for x in range(h):
-    print(" " * (h - x), "*" * (2*x + 1))
-for x in range(h - 2, -1, -1):
-    print(" " * (h - x), "*" * (2*x + 1))
+for i in range(inputData):
+    print(" " * (inputData - i), "*" * (2*i + 1))
+for i in range(inputData - 2, -1, -1):
+    print(" " * (inputData - i), "*" * (2*i + 1))
 ```
 
 * lakukan run file
 * Hasil Output : <br>
-![run latihan3](https://user-images.githubusercontent.com/47426095/198815514-f20acf7e-5e0b-4fcd-a399-d1b6c138a021.PNG)
+![Screenshot_20221031_133721](https://user-images.githubusercontent.com/115473812/198946897-ddbcbc9a-6aea-4ed6-817c-a56affd9f81b.png)
+
 <br>
 
+# Menghitung Luas dan Keliling Lingkaran
+* buat flowchart <br>
+<img width="625" alt="flow" src="https://user-images.githubusercontent.com/115473812/198947513-f6f7161a-d30a-4586-a307-95095df8275f.png">
+
+* Buat code <br>
+![Screenshot_20221031_134518](https://user-images.githubusercontent.com/115473812/198947776-16477636-8baf-49db-8d1a-bf9561a78fb3.png)
+
 ```
-Hello ini script python 
+# import module math
+import math
+
+# Variable jariJari menampung nilai input yang dimasukan yaitu berupa string
+jariJari = input('Masukan jari-jari lingkaran :')
+
+"""
+rumus luas & keliling lingkaran
+_____________________________________
+luas     = phi * r^2
+keliling = 2 * phi * r
+_____________________________________
+"""
+
+# convert string to integer
+jariJari = int(jariJari)
+
+# hitung luas lingkaran
+luas = math.pi * (jariJari * jariJari)
+```
+
+* Lakukan run file
+* Hasil Output
+![Screenshot_20221031_134542](https://user-images.githubusercontent.com/115473812/198948028-410526eb-9d99-4637-8971-3fa89b95a386.png)
 
 
-      *
-     ***
-    *****
-   *******
-  *********
-   *******
-    *****
-     ***
-      *
-```
-* Flowchart : <br>
-![Map latihan3](https://user-images.githubusercontent.com/47426095/198815566-ce5e09e8-ca92-4121-9111-23b7637f9715.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
