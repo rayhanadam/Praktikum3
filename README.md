@@ -1,11 +1,5 @@
 # Tugas Pertemuan 6 Praktikum 3 <hr> <br>
 
-## Daftar isi 
-1. [Latihan 1](#Latihan-1)
-2. [Latihan 2](#Latihan-2)
-3. [Latihan 3](#Latihan-3)
-4. [Menghitung Luas dan Keliling Lingkaran](#Menghitung Luas dan Keliling Lingkaran)
-
 # Latihan 1
 <br>
 * buat Source Code <br>
