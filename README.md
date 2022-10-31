@@ -4,7 +4,7 @@
 1. [Latihan 1](#Latihan-1)
 2. [Latihan 2](#Latihan-2)
 3. [Latihan 3](#Latihan-3)
-4. [Lingkaran](#Menghitung Luas dan Keliling Lingkaran)
+4. [Menghitung Luas dan Keliling Lingkaran](#Menghitung Luas dan Keliling Lingkaran)
 
 # Latihan 1
 <br>
